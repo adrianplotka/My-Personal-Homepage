@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const homepageSlice = createSlice({
-    name: 'homepage',
+const personalHomepageSlice = createSlice({
+    name: 'personalHomepage',
     initialState: {
         repositories: null,
         status: "initial",
@@ -11,4 +11,4 @@ const homepageSlice = createSlice({
     }
 });
 
-export default homepageSlice.reducer;
+export default personalHomepageSlice.reducer;

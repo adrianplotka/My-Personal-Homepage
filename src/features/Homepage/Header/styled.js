@@ -20,7 +20,7 @@ export const Content = styled.div`
 `;
 
 export const Small = styled.header`
-    color: ${({ theme }) => theme.color.slateGray};
+    color: ${({ theme }) => theme.colors.site.text};
     font-weight: 700;
     font-size: 12px;
 `;
@@ -31,7 +31,7 @@ export const Name = styled.h1`
 `;
 
 export const Text = styled.p`
-    color: ${({ theme }) => theme.color.slateGray};
+    color: ${({ theme }) => theme.colors.site.text};
     font-weight: 400;
     font-size: 20px;
 `;
@@ -40,7 +40,6 @@ export const StyledButtonLink = styled(ButtonLink)`
     display: inline-flex;
     align-items: center;
     margin-top: 32px;
-    
 `;
 
 export const ButtonIcon = styled(iconEmail)`

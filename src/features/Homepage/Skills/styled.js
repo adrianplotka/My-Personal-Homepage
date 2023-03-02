@@ -1,17 +1,19 @@
 import styled from "styled-components";
 
 export const Div = styled.article`
-    background-color: ${({ theme }) => theme.color.white};
+    background-color: ${({ theme }) => theme.colors.boxBackground};
     margin-top: 62px;
     padding: 32px;
+    box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
+    border-radius: 4px;
 `;
 
 export const Header = styled.h2`
     margin: 0;
     font-weight: 900;
     font-size: 30px;
-    color: ${({ theme }) => theme.color.black};
-    border-bottom: solid 1px ${({ theme }) => theme.color.mischka};
+    color: ${({ theme }) => theme.colors.site.text};
+    border-bottom: solid 1px ${({ theme }) => theme.colors.headerLine};
     padding-bottom: 15px;
 `;
 
@@ -27,7 +29,7 @@ export const Li = styled.li`
     display: flex;
     font-weight: 400;
     font-size: 18px;
-    color: ${({ theme }) => theme.color.slateGray};
+    color: ${({ theme }) => theme.colors.site.text};
     line-height: 1.4;
 `;
 
