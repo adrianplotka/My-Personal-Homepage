@@ -12,7 +12,7 @@ export const Header = styled.h2`
     margin: 0;
     font-weight: 900;
     font-size: 30px;
-    color: ${({ theme }) => theme.colors.site.text};
+    color: ${({ theme }) => theme.colors.priorityText};
     border-bottom: solid 1px ${({ theme }) => theme.colors.headerLine};
     padding-bottom: 15px;
 `;

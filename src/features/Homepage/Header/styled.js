@@ -20,12 +20,12 @@ export const Content = styled.div`
 `;
 
 export const Small = styled.header`
-    color: ${({ theme }) => theme.colors.site.text};
     font-weight: 700;
     font-size: 12px;
 `;
 
 export const Name = styled.h1`
+    color: ${({ theme }) => theme.colors.priorityText};
     font-weight: 900;
     font-size: 38px;
 `;

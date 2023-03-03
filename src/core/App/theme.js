@@ -31,7 +31,7 @@ export const themeLight = {
 
     colors: {
         primary: colorNames.scienceBlue,
-        textPrimary: colorNames.mineShaft,
+        priorityText: colorNames.mineShaft,
         site: {
             background: colorNames.whiteLilac,
             text: colorNames.slateGray,
@@ -60,7 +60,7 @@ export const themeDark = {
 
     colors: {
         primary: colorNames.dodgerBlue,
-        textPrimary: colorNames.white,
+        priorityText: colorNames.white,
         site: {
             background: colorNames.mineShaft,
             text: colorNames.white,
