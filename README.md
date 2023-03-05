@@ -1,3 +1,17 @@
+# My personal homepage 🧑‍💻
+
+Zdjecie wstawić
+
+## 💻 Demo
+
+To see my personal homepage [click here](https://adrianplotka.github.io/My-Personal-Homepage/)
+
+## 📋 Description
+
+This is my personal homepage made in React. Here you can find skills I have learned and some information what I want to learn next. Portfolio is fetched from GitHub API.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
