@@ -14,7 +14,7 @@ export const SkillsList = [
   { content: "Immutability", id: 13 },
   { content: "Error handling", id: 14 },
   { content: "NPM", id: 15 },
-  { content: "JavaScript: ES6+", id: 16 },
+  { content: "JavaScript ES6+", id: 16 },
   { content: "Working with API (fetch, axios)", id: 17 },
   { content: "Semantic & accessible HTML", id: 18 },
   { content: "CSS BEM convention", id: 19 },
