@@ -35,6 +35,7 @@ export const Text = styled.p`
     font-weight: 400;
     line-height: 1.4;
     letter-spacing: 0.05em;
+    text-align: justify; 
 `;
 
 export const Container = styled.div`

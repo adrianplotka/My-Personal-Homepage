@@ -9,7 +9,7 @@ export const Footer = () => (
         <Wrapper>
             <SubHeader>Let's Talk</SubHeader>
             <Email href={`mailto:${email}`}>{email}</Email>
-            <Text>I’m always open to new projects whenever I have the time. If you have a website, dashboard or mobile app in mind and need some help to make your ideas come to life, feel free to conatct me 👌</Text>
+            <Text>I will be happy to undertake the creation of a website, dashboard or mobile application once again. If you need help and would like me to help you create what you need, please contact me and I will definitely find time and help you👌</Text>
         </Wrapper>
         <Container>
             <Link target="_blank" rel="noreferrer" href="https://github.com/adrianplotka">

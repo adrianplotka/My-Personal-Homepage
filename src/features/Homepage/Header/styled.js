@@ -34,6 +34,8 @@ export const Text = styled.p`
     color: ${({ theme }) => theme.colors.site.text};
     font-weight: 400;
     font-size: 20px;
+    max-width: 633px;
+    text-align: justify;
 `;
 
 export const StyledButtonLink = styled(ButtonLink)`

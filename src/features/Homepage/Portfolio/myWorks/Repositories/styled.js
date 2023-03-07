@@ -47,6 +47,7 @@ export const Description = styled.p`
     margin: 0 0 24px 0;
     height: 75px;
     color: ${({ theme }) => theme.colors.site.text};
+    text-align: justify;
 `;
 
 export const LinkContainer = styled.div`
