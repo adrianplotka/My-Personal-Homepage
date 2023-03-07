@@ -2,6 +2,7 @@ import { email } from "../Header/email";
 import { Container, Email, Link, SubHeader, Text, Wrapper } from "./styled";
 import { ReactComponent as Github } from "./icons/git.svg";
 import { ReactComponent as Facebook } from "./icons/facebook.svg";
+import { ReactComponent as LinkedIn } from "./icons/linedin.svg";
 import { ReactComponent as Instagram } from "./icons/instagram.svg";
 
 export const Footer = () => (
@@ -17,6 +18,9 @@ export const Footer = () => (
             </Link>
             <Link target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100003160549552">
                 <Facebook />
+            </Link>
+            <Link target="_blank" rel="noreferrer" href="https://www.linkedin.com/">
+                <LinkedIn />
             </Link>
             <Link target="_blank" rel="noreferrer" href="https://www.instagram.com/adrianplotkaa/?igshid=ZDdkNTZiNTM%3D&fbclid=IwAR0X3_ZJKh3vztPapwoZvxKEMymXaXX1O-pDBYjlx7X5b-EfBmyUDLwrDOk">
                 <Instagram />
