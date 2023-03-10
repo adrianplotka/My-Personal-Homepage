@@ -6,9 +6,11 @@ export const Wrapper = styled.ul`
     grid-template-columns: 1fr 1fr;
     grid-gap: 32px;
     background: ${({theme}) => theme.colors.boxBackground};
+
     @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
         grid-template-columns: 1fr;
         justify-items: center;
+        grid-gap: 16px;
     }
 `;
 
@@ -20,6 +22,7 @@ export const Container = styled.li`
     border: 6px solid rgba(209, 213, 218, 0.3);
     box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
     border-radius: 4px;
+
     &:hover {
         border: 6px solid rgba(3, 102, 214, 0.2);
     }
@@ -36,6 +39,10 @@ export const Title = styled.h3`
     letter-spacing: 0.05em;
     margin-top: 0;
     color: ${({ theme }) => theme.colors.primary};
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 16px;
+    }
 `;
 
 export const Description = styled.p`
@@ -48,11 +55,16 @@ export const Description = styled.p`
     height: 75px;
     color: ${({ theme }) => theme.colors.site.text};
     text-align: justify;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 14px;
+    }
 `;
 
 export const LinkContainer = styled.div`
     display: flex;
     margin-bottom: 8px;
+
 `;
 
 export const Text = styled.span`
@@ -62,6 +74,10 @@ export const Text = styled.span`
     letter-spacing: 0.05em;
     min-width: 65px;
     color: ${({ theme }) => theme.colors.site.text};
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 14px;
+    }
 `;
 
 export const StyledLink = styled.a`
@@ -72,7 +88,12 @@ export const StyledLink = styled.a`
     align-items: center;
     letter-spacing: 0.05em;
     color: ${({ theme }) => theme.colors.primary};
+    
     &:hover {
         filter: brightness(125%);
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 14px;
     }
 `;

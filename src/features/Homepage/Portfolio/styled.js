@@ -16,6 +16,9 @@ export const Header = styled.h2`
     letter-spacing: 0.05em;
     text-align: center;
 
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 18px;
+    }
 `;
 
 export const Text = styled.p`
@@ -23,8 +26,16 @@ export const Text = styled.p`
     margin: 0;
     font-size: 20px;
     font-weight: 400;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 17px;
+    }
 `;
 
 export const Icon = styled.div`
     height: 39px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        height: 31px;
+    }
 `;

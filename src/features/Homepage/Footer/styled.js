@@ -6,6 +6,12 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 24px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        max-width: 349px;
+        gap: 12px;
+        padding: 6px;
+    }
 `;
 
 export const SubHeader = styled.h2`
@@ -14,6 +20,11 @@ export const SubHeader = styled.h2`
     font-weight: 700;
     line-height: 1.3;
     text-transform: uppercase;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 12px;
+        line-height: 1.3;
+    }
 `;
 
 export const Email = styled.a`
@@ -27,6 +38,11 @@ export const Email = styled.a`
      &:hover {
         color: ${({ theme }) => theme.colors.primary};
     }
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 18px;
+        line-height: 1.3;
+    }
 `;
 
 export const Text = styled.p`
@@ -36,6 +52,11 @@ export const Text = styled.p`
     line-height: 1.4;
     letter-spacing: 0.05em;
     text-align: justify; 
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 14px;
+        line-height: 1.3;
+    }
 `;
 
 export const Container = styled.div`
@@ -50,7 +71,15 @@ export const Link = styled.a`
     cursor: pointer;
     color: ${({ theme }) => theme.colors.priorityText};
     transition: 0.3s;
+    
+    
     &:hover {
         color: ${({ theme }) => theme.colors.primary};
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        width: 31px;
+        height: 31px;
+        margin-right: 40px;
     }
 `;
