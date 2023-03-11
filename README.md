@@ -10,9 +10,20 @@ To see my personal homepage [click here](https://adrianplotka.github.io/My-Perso
 
 This is my personal homepage made in React. Here you can find skills I have learned and some information what I want to learn next. Portfolio is fetched from GitHub API.
 
+## Used technologies
 
+- HTML
+- JavaScript (ES6+)
+- CSS
+- React
+- React-Redux
+- Redux / Toolkit
+- Redux Saga
+- Promises, async/await
+- Styled Components 
+- ThemeProvider
+- Local Storage
 
-# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
