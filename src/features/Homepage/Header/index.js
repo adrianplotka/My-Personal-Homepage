@@ -1,6 +1,5 @@
 import {
     ButtonIcon,
-    Content,
     Container,
     Text,
     Image,
