@@ -19,7 +19,7 @@ export const Footer = () => (
             <Link target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100003160549552">
                 <Facebook />
             </Link>
-            <Link target="_blank" rel="noreferrer" href="https://www.linkedin.com/">
+            <Link target="_blank" rel="noreferrer" href="http://www.linkedin.com/in/adrian-plotka">
                 <LinkedIn />
             </Link>
             <Link target="_blank" rel="noreferrer" href="https://www.instagram.com/adrianplotkaa/?igshid=ZDdkNTZiNTM%3D&fbclid=IwAR0X3_ZJKh3vztPapwoZvxKEMymXaXX1O-pDBYjlx7X5b-EfBmyUDLwrDOk">
