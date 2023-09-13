@@ -23,16 +23,20 @@ export const Header = styled.h2`
 
 export const List = styled.ul`
     margin-top: 32px;
+    padding: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 8px 32px;
-    text-decoration: none;
+    list-style: none;
+ 
+  @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         grid-template-columns: 1fr;
         margin-top: 12px;
         grid-gap: 8px;
-        padding: 0px;
     }
 `;
 
@@ -42,6 +46,7 @@ export const Li = styled.li`
     font-size: 18px;
     color: ${({ theme }) => theme.colors.site.text};
     line-height: 1.4;
+  
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size: 14px;
