@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/My-Personal-Homepage/static/js/main.65a9322d.js",
+    "main.js": "/My-Personal-Homepage/static/js/main.97acb90a.js",
     "static/js/787.a0661370.chunk.js": "/My-Personal-Homepage/static/js/787.a0661370.chunk.js",
-    "static/media/myPicture.png": "/My-Personal-Homepage/static/media/myPicture.89be843a3477331d729d.png",
+    "static/media/myPicture.png": "/My-Personal-Homepage/static/media/myPicture.d5955efbfaa48aa50378.png",
     "static/media/instagram.svg": "/My-Personal-Homepage/static/media/instagram.5e91a42b66045079040c717e39f95d2d.svg",
     "static/media/sun.svg": "/My-Personal-Homepage/static/media/sun.821e32ab30a95d3bc5c912795b927cbc.svg",
     "static/media/git.svg": "/My-Personal-Homepage/static/media/git.b09a7181d593c2f678a8f25a0841ee7e.svg",
@@ -12,10 +12,10 @@
     "static/media/iconEmail.svg": "/My-Personal-Homepage/static/media/iconEmail.109d965d2ccc17af7abab8e33c1741e6.svg",
     "static/media/facebook.svg": "/My-Personal-Homepage/static/media/facebook.9bd34695931609c45e0a42fea13b6f09.svg",
     "static/media/blueMarker.svg": "/My-Personal-Homepage/static/media/blueMarker.c28602c8be31d96b4a27bc3627dd6f6f.svg",
-    "main.65a9322d.js.map": "/My-Personal-Homepage/static/js/main.65a9322d.js.map",
+    "main.97acb90a.js.map": "/My-Personal-Homepage/static/js/main.97acb90a.js.map",
     "787.a0661370.chunk.js.map": "/My-Personal-Homepage/static/js/787.a0661370.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.65a9322d.js"
+    "static/js/main.97acb90a.js"
   ]
 }
