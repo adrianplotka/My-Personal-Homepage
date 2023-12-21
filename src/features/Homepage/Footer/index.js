@@ -4,10 +4,13 @@ import { ReactComponent as Github } from "./icons/git.svg";
 import { ReactComponent as Facebook } from "./icons/facebook.svg";
 import { ReactComponent as LinkedIn } from "./icons/linedin.svg";
 import { ReactComponent as Instagram } from "./icons/instagram.svg";
+import BackToTopButton from "../../../common/BackToTopButton/BackToTopButton";
 
 export const Footer = () => (
     <>
+       
         <Wrapper>
+        <BackToTopButton />
             <SubHeader>Let's Talk</SubHeader>
             <Email href={`mailto:${email}`}>{email}</Email>
             <Text>I will be happy to undertake the creation of a website, dashboard or mobile application once again. If you need help and would like me to help you create what you need, please contact me and I will definitely find time and help you👌</Text>
