@@ -1,7 +1,5 @@
 # My personal homepage 🧑‍💻
 
-Zdjecie wstawić
-
 ## 💻 Demo
 
 To see my personal homepage [click here](https://adrianplotka.github.io/My-Personal-Homepage/)
