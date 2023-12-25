@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { Container, StyledButton } from './styled';
+import { Container, StyledButton, TopIcon } from './styled';
 
 const BackToTopButton = () => {
     const [backToTopButton, setBackToTopButton] = useState(false)
@@ -25,10 +25,17 @@ const BackToTopButton = () => {
     return (
         <Container>
             {backToTopButton && (
-                <StyledButton onClick={scrollUp}> Back to top</StyledButton>
+                <>
+                    <StyledButton onClick={scrollUp}>
+                        <TopIcon />
+                        Back to top
+                    </StyledButton>
+
+                </>
+
             )}
         </Container>
     )
 }
 
-export default BackToTopButton
+export default BackToTopButton;
